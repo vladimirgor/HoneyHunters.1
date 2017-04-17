@@ -1,0 +1,151 @@
+.header,.form,.footer, .envelope, input, .select  {
+    background-color:#2d3035;
+    border:none;
+}
+.header   {
+    padding-top:2em;
+}
+.company {
+    border-radius: 0.31em;
+    transition-duration: 0.5s;
+}
+.footer   {
+    padding:2em 0 2em 0;
+}
+input:focus{
+    border-style:hidden;
+    border-right:0.09em #999 solid;
+    outline: none;
+}
+input {
+    padding-left:1em;
+    width: auto;
+}
+input:invalid {
+    box-shadow: none;
+}
+.form {
+    color:#d6d8d7;
+    font-size:1.7em;
+    padding-top:1em;
+}
+.select {
+    padding-top:5em;
+    padding-bottom:3em;
+}
+#save {
+    background-color: #be393c;
+    color:#fff;
+    font-size:1.7em;
+    border:none;
+    border-radius: 0.31em;
+    padding : 0.5em 1em;
+    transition-duration: 0.5s;
+
+}
+#save:hover, .circle:hover, .company:hover {
+    box-shadow:0 0 1.25em 0.25em #6477ad inset;
+}
+.footer i:hover {
+    box-shadow:0 0 0.3em 0.1em #6477ad inset;
+}
+.hhs {
+    color:#fff;
+    font-size:1.7em;
+    vertical-align: middle;
+}
+a:hover, a:link, a:active {
+    text-decoration: none;
+}
+.footer i {
+    padding-top:0.6em;
+    text-align:center;
+    height:2em;
+    width:2em;
+    color:#656565;
+    background-color:#2f3237;
+    border-radius:50%;
+    margin-top: 0.8em;
+    transition-duration: 0.5s;
+
+}
+
+.social {
+    padding:0;
+}
+.inside {
+    padding:0;
+    border:none;
+    width:80%;
+    border-radius:10%;
+}
+.circle {
+    border-radius: 50%;
+    border:1.2em #393939 solid;
+    background-color: #be393c;
+    height:11em;
+    width:11em;
+    margin: auto;
+    transition-duration: 0.5s;
+    padding-left: 1.4em;
+    padding-top: 2.2em;
+}
+ .env-img {
+     width:100%;
+    }
+
+
+.star {
+    color:#be393c ;
+}
+.output_comments {
+    padding:2em 0;
+    text-align: center;
+    font-size: 2em;
+    color:#37414d;
+}
+.comments {
+    background-color: #f5f6f2;
+}
+.ticketc,.ticketnc {
+    text-align: center;
+    margin-bottom: 2.8em;
+    margin-right: 2.8em;
+    padding:0;
+}
+.ticketnc {
+    background-color:#ddebde;
+}
+.ticketc {
+    background-color:#e9eef2;
+}
+.c1, .nc1  {
+    color:#fff;
+    font-size:1.2em;
+    padding:0.5em 0;
+}
+.c1 {
+    background-color:#4a596c;
+}
+.nc1 {
+    background-color:#58ad52;
+}
+.c2, .nc2  {
+    font-size:1.1em;
+    font-weight: bold;
+}
+.c2 {
+    color: #6c737b;
+}
+.c3,.nc3{
+    color: #767682;
+}
+.nc2 {
+    color: #58ad52;
+}
+
+.c3, .nc3  {
+    font-size:0.9em;
+    height: 10em;
+    padding:0 3em;
+}
