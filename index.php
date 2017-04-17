@@ -25,15 +25,11 @@ session_start();
         </div>
     </div>
     <div class="row envelope">
-
         <div class="circle">
-            <button type="submit"  form="datainsert" class="inside">
-
-                    <img class = "env-img" src="/image/envelop.png" alt="envelope">
-
+            <button type="submit"  form="datainsert" class="inside" id="data">
+                <img class = "env-img" src="/image/envelop.png" alt="envelope">
             </button>
         </div>
-
     </div>
     <form id="datainsert">
         <div class="row form" id="write">
