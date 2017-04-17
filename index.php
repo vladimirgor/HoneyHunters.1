@@ -12,7 +12,7 @@ session_start();
     <script language="javascript" src="js/userInput.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>HoneyHunters</title>
+    <title>HoneyHunters.1</title>
 </head>
 
 <body>
@@ -27,13 +27,11 @@ session_start();
     <div class="row envelope">
 
         <div class="circle">
-            <div class="inside">
-                <button type="submit" id="insert" form="data">
-                    <a href="#">
-                        <img class = "env-img" src="/image/envelop.png" alt="envelope">
-                    </a>
-                </button>
-            </div>
+            <button type="submit"  form="datainsert" class="inside">
+
+                    <img class = "env-img" src="/image/envelop.png" alt="envelope">
+
+            </button>
         </div>
 
     </div>
@@ -55,7 +53,7 @@ session_start();
             </div>
         </div>
         <input hidden type="text"  id="session" value ="<?=session_id()?>">
-        <div class="row insert">
+        <div class="row select">
             <div class="col-sm-2 col-sm-offset-9">
                 <button  type="button" id="save">Записать</button>
             </div>
