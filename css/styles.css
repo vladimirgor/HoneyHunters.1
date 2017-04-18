@@ -75,8 +75,10 @@ a:hover, a:link, a:active {
 .inside {
     padding:0;
     border:none;
-    width:80%;
-    border-radius:10%;
+    width:60%;
+    background: none;
+    outline:none;
+    cursor: pointer;
 }
 .circle {
     border-radius: 50%;
@@ -85,13 +87,16 @@ a:hover, a:link, a:active {
     width:11em;
     margin: auto;
     transition-duration: 0.5s;
-    padding-left: 1.4em;
-    padding-top: 2.2em;
     background:url('/image/shadow.png'),#be393c;
     background-size: cover;
 }
  .env-img {
+     position:relative;
      width:100%;
+     border-radius:10%;
+     top:2.399em;
+     left:1.87em;
+     transition-duration: 0.5s;
     }
 .star {
     color:#be393c ;
