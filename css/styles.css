@@ -67,7 +67,6 @@ a:hover, a:link, a:active {
     border-radius:50%;
     margin-top: 0.8em;
     transition-duration: 0.5s;
-
 }
 
 .social {
@@ -94,8 +93,6 @@ a:hover, a:link, a:active {
  .env-img {
      width:100%;
     }
-
-
 .star {
     color:#be393c ;
 }
