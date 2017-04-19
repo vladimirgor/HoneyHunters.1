@@ -75,7 +75,7 @@ function processResultInsert (json){
             /* message rendering */
             $('#message').html(e.message);
         } else {
-            $('#message').html(e.message);
+            $('#message').html(e.answer);
         }
     });
 }
