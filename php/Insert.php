@@ -2,7 +2,7 @@
 session_start();
 include_once('config.php');
 require_once('functions.php');
-$p = preg_match('~^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$~', $_GET['name']);
+$p = preg_match('~^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$~u', $_GET['name']);
 if ($p === 0) {
     $message[] = ['message' => "Введите, пожалуйста, имя правильно ." ];
     echo json_encode($message);
@@ -32,6 +32,8 @@ if ($p === 0) {
             }
             $link = dbLink();
             Insert(TABLE, ['name' => $name, 'comment' => $comment, 'email' => $email], $link);
+            $message[] = ['answer' => "Ваши данные успешно записаны ."];
+            echo json_encode($message);
         }
     }
 }
