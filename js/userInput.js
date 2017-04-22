@@ -39,8 +39,8 @@ $(document).ready(function(){
 });
 /*  ajax response processing  */
 function processResultSelect(json)	{
-    var str = '';
-    var j = 0;
+    var str = "";
+    var offset = "";
 /* cards html cleaning */
     $("#list").html("");
 /* message html cleaning */
@@ -53,12 +53,12 @@ function processResultSelect(json)	{
             $('#message').html(e.message);
         } else {
 /* cards  html forming */
-            if (j % 3 == 0) $("#list").append('<div class = "col-sm-1"></div>');
-            j++;
+            if ( i % 3 == 0 ) offset = " col-sm-offset-1 ";
+            else offset = "";
             if (i % 2 == 0) str = 'c'; /* even card class */
             else str = 'nc';           /* odd  card class */
             $("#list").append(
-                '<div class="col-sm-3 ticket' + str + '">' +
+                '<div class="col-sm-3 ticket' + str + offset + '">' +
                 '<p class="' + str + '1' + '">' + e.name + '</p>' +
                 '<p class="' + str + '2' + '">' + e.email + '</p>' +
                 '<p class="' + str + '3' + '">' + e.comment + '</p>' +
