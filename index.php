@@ -33,21 +33,29 @@ session_start();
     </div>
     <form id="datainsert">
         <div class="row form" id="write">
-            <div class="col-sm-4 col-sm-offset-1">
-                Имя <span class="star">&#9733;</span><br>
-                <input type="text"  size="5" maxlength="40" autofocus required
-                       pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$" id="name">
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-sm-12">
+                        Имя <span class="star">&#9733;</span><br>
+                        <input type="text"   maxlength="40" autofocus required
+                               pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$" id="name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        E-Mail <span class="star">&#9733;</span><br>
+                        <input type="email"  maxlength="40" required id="email">
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4 col-sm-offset-2">
-                Комментарий <span class="star">&#9733;</span><br>
-                <input type="text" size="15" maxlength="150" required
-                       pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z!\-,.\s&#34;]+$" id="comment">
-            </div>
-        </div>
-        <div class="row form">
-            <div class="col-sm-4 col-sm-offset-1">
-                E-Mail <span class="star">&#9733;</span><br>
-                <input type="email" size="5" maxlength="40" required id="email">
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-sm-12">
+                        Комментарий <span class="star">&#9733;</span><br>
+                        <textarea  maxlength="255" required
+                               id="comment"></textarea>
+                    </div>
+                </div>
             </div>
         </div>
         <input hidden type="text"  id="session" value ="<?=session_id()?>">
