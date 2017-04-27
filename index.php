@@ -76,9 +76,9 @@ session_start();
                 <span class="hhs">HoneyHunters</span></a>
         </div>
         <div class="col-sm-1 social col-sm-offset-6">
-            <a href="#">
+            <a href="http://vk.com">
                 <i class="fa fa-vk"></i></a>
-            <a href="#">
+            <a href="http://facebook.com">
                 <i class="fa fa-facebook"></i></a>
         </div>
     </div>
