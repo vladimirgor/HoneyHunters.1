@@ -35,22 +35,22 @@ session_start();
         <div class="row form" id="write">
             <div class="col-sm-5 col-sm-offset-1">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 pdngrght">
                         Имя <span class="star">&#9733;</span><br>
                         <input type="text"   maxlength="40" autofocus required
                                pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$" id="name">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 ">
+                    <div class="col-sm-12 pdngrght">
                         E-Mail <span class="star">&#9733;</span><br>
                         <input type="email"  maxlength="40" required id="email">
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5 col-sm-offset-1">
+            <div class="col-sm-5 ">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 pdngrght ">
                         Комментарий <span class="star">&#9733;</span><br>
                         <textarea  maxlength="255" required
                                id="comment"></textarea>
