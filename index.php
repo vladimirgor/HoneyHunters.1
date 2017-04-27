@@ -12,14 +12,14 @@ session_start();
     <script language="javascript" src="js/userInput.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>HoneyHunters.1</title>
+    <title>HoneyHunters-1</title>
 </head>
 
 <body>
 <div class="container">
     <div class="row header">
         <div class="company col-sm-3 col-sm-offset-1">
-            <a href="#"><img  src="http://honey-hunters.ru/public/img/logo_50.png"
+            <a href="http://honey-hunters.ru"><img  src="http://honey-hunters.ru/public/img/logo_50.png"
                               alt="logo">
                 <span class="hhs">HoneyHunters</span></a>
         </div>
@@ -35,11 +35,13 @@ session_start();
         <div class="row form" id="write">
             <div class="col-sm-4 col-sm-offset-1">
                 Имя <span class="star">&#9733;</span><br>
-                <input type="text"  size="5" maxlength="40" autofocus required pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$" id="name">
+                <input type="text"  size="5" maxlength="40" autofocus required
+                       pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z\s]+$" id="name">
             </div>
             <div class="col-sm-4 col-sm-offset-2">
                 Комментарий <span class="star">&#9733;</span><br>
-                <input type="text" size="15" maxlength="150" required   pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z!\-,.\s&#34;]+$" id="comment">
+                <input type="text" size="15" maxlength="150" required
+                       pattern="^[A-ZА-ЯЁ][А-Яа-яЁёA-Za-z!\-,.\s&#34;]+$" id="comment">
             </div>
         </div>
         <div class="row form">
@@ -61,7 +63,7 @@ session_start();
     </div>
     <div class="row footer">
         <div class="company col-sm-3 col-sm-offset-1">
-            <a href="#"><img  src="http://honey-hunters.ru/public/img/logo_50.png"
+            <a href="http://honey-hunters.ru"><img  src="http://honey-hunters.ru/public/img/logo_50.png"
                               alt="logo">
                 <span class="hhs">HoneyHunters</span></a>
         </div>
