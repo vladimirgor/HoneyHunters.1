@@ -1,4 +1,4 @@
-.header,.form,.footer, .envelope, input, .select  {
+.header,.form,.footer, .envelope, input, .select, textarea  {
     background-color:#2d3035;
     border:none;
 }
@@ -10,20 +10,33 @@
     transition-duration: 0.5s;
 }
 .footer   {
-    padding:2em 0 2em 0;
+    padding:2em;
 }
-input:focus{
-    border-style:hidden;
-    border-right:0.09em #999 solid;
-    outline: none;
+input:focus, textarea:focus {
+    outline:none;
+    border:1px solid rgba(255,0,0,0.2);
+    background-color:#2d3035;
 }
-input {
-    padding-left:1em;
-    width: auto;
+input, textarea {
+    padding:1em 0.75em 1em 0.75em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    border: 1px solid rgba(230,230,230,0.2);
+    border-radius:2px;
+    background-color:#2f3338;
+    width: 100%;
 }
-input:invalid {
+.pdngrght {
+    padding-right: 2em;
+}
+
+textarea {
+    height: 230px;
+}
+input:invalid, textarea:invalid {
     box-shadow: none;
 }
+
 .form {
     color:#d6d8d7;
     font-size:1.7em;
