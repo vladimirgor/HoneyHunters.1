@@ -33,7 +33,7 @@ input, textarea {
 textarea {
     height: 230px;
 }
-input:invalid textarea:invalid {
+input:invalid, textarea:invalid {
     box-shadow: none;
 }
 
